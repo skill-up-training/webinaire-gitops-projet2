@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <docker-username>/my-nginx:latest  # Ceci sera mis à jour automatiquement
+        image: bendia93/my-nginx:latest
         ports:
         - containerPort: 80
 ---
