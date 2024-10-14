@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: bendia93/my-nginx:latest
+        image: skill-up-training/webinaire-gitops:0.1
         ports:
         - containerPort: 80
 ---
