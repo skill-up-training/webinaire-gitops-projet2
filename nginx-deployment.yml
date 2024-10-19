@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ghcr.io/skill-up-training/webinaire-gitops:0.3
+        image: ghcr.io/skill-up-training/webinaire-gitops:0.4
         ports:
         - containerPort: 80
 ---
